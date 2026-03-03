@@ -1,0 +1,35 @@
+{
+  "name": "cs2crosshair",
+  "version": "1.0.1",
+  "description": "Decode, edit and encode CS:GO/CS2 crosshairs easily.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "csgo",
+    "cs2",
+    "counter-strike",
+    "crosshair",
+    "decode",
+    "encode"
+  ],
+  "author": "SyberiaK",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josephsimmsdev/cs2crosshair.git"
+  },
+  "bugs": {
+    "url": "https://github.com/josephsimmsdev/cs2crosshair/issues"
+  },
+  "homepage": "https://github.com/josephsimmsdev/cs2crosshair",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
